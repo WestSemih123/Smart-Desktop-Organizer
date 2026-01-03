@@ -4,72 +4,75 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=flat&logo=windows)
 
-**Smart Desktop Organizer**, masaüstünüzü ve indirilenler klasörünüzü otomatik olarak düzenleyen, modern arayüze sahip, Python tabanlı gelişmiş bir otomasyon aracıdır. Karmaşık dosya yığınlarını saniyeler içinde kategorize eder ve size zaman kazandırır.
+**Smart Desktop Organizer** is an advanced Python-based automation tool with a modern interface that automatically organizes your desktop and downloads folder. It categorizes complex file piles in seconds and saves you time.
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Features
 
-Bu proje **v5.0** sürümüyle aşağıdaki yeteneklere sahiptir:
+This project has the following capabilities in version **v5.0**:
 
-* **📂 Çoklu Klasör Takibi:** İndirilenler, Masaüstü veya seçtiğiniz herhangi bir klasörü aynı anda izler.
-* **☁️ Bulut Yedekleme:** Dosyaları düzenlerken otomatik olarak Google Drive veya OneDrive klasörünüze yedekler.
-* **🎨 Modern Arayüz:** CustomTkinter ile geliştirilmiş, **Dark Mode** destekli şık ayarlar menüsü.
-* **⚡ Otomatik Başlatma:** Windows başlangıcında sessizce çalışmaya başlar (System Tray entegrasyonu).
-* **📦 Akıllı Zip Açıcı:** İndirilen `.zip` dosyalarını otomatik olarak ilgili klasöre çıkartır.
-* **↩️ Geri Alma (Undo):** Yanlış taşınan dosyaları tek tıkla geri alır.
-* **📊 İstatistikler:** Hangi türden kaç dosya düzenlendiğini ve kazanılan zamanı raporlar.
-* **📜 Canlı Log:** Yapılan işlemleri anlık olarak arayüzden izleyebilirsiniz.
+* **📂 Multi-Folder Tracking:** Monitors your Downloads, Desktop, or any folder you choose simultaneously.
+* **☁️ Cloud Backup:** Automatically backs up files to your Google Drive or OneDrive folder while organizing them.
+* **🎨 Modern Interface:** Developed with CustomTkinter, featuring a stylish settings menu with **Dark Mode** support.
+* **⚡ Auto-Start:** Starts silently at Windows startup (System Tray integration).
+* **📦 Smart Zip Extractor:** Automatically extracts downloaded `.zip` files to the relevant folder.
+* **↩️ Undo:** Restores misplaced files with a single click.
+* **📊 Statistics:** Reports how many files of each type were processed and the time saved.
+* **📜 Live Log:** You can monitor the operations performed in real-time from the interface.
 
 ---
 
-## 🛠️ Kurulum
+## 🛠️ Installation
 
-Projeyi bilgisayarınıza klonlayın ve gerekli kütüphaneleri yükleyin.
+Clone the project to your computer and install the required libraries.
 
 ```bash
-# Repoyu klonlayın
+# Clone the repository
 git clone [https://github.com/KULLANICI_ADINIZ/Smart-Desktop-Organizer.git](https://github.com/KULLANICI_ADINIZ/Smart-Desktop-Organizer.git)
 
-# Proje dizinine girin
+# Enter the project directory
 cd Smart-Desktop-Organizer
 
-# Gereksinimleri yükleyin
+# Install requirements
 pip install -r requirements.txt
-▶️ Kullanım
-Uygulamayı başlatmak için terminalden şu komutu çalıştırın:
+▶️ Usage
+To launch the application, run the following command in the terminal:
 
 Bash
 
 python main.py
-Uygulama başladığında System Tray (Saatin yanındaki simgeler) kısmına yerleşir. Arka planda sessizce çalışır.
+When the application starts, it will reside in the System Tray (icons next to the clock). It runs silently in the background.
 
-Sağ Tık Menüsü: Ayarlar, Geri Al ve Çıkış seçeneklerine buradan ulaşabilirsiniz.
+Right-Click Menu: Access Settings, Undo, and Exit options here.
 
-Ayarlar: Kuralları değiştirebilir, yeni izlenecek klasörler ekleyebilir (.odp, .jpg vb.) ve istatistikleri görebilirsiniz.
+Settings: Change rules, add new folders to monitor (.odp, .jpg, etc.), and view statistics.
 
-⚙️ Yapılandırma
-Program ilk açılışta bir settings.json dosyası oluşturur. Arayüz üzerinden şunları kolayca yönetebilirsiniz:
+⚙️ Configuration
+The program creates a settings.json file on first launch. You can easily manage the following via the interface:
 
-Dosya Kuralları: Hangi uzantının (Örn: .pdf, .odp, .jpg, .mp4) hangi alt klasöre taşınacağını belirleyin.
+File Rules: Specify which extension (e.g., .pdf, .odp, .jpg, .mp4) should be moved to which subfolder.
 
-Tema: Dark / Light mod seçimi yapın.
+Theme: Choose between Dark / Light mode.
 
-Ekstra Özellikler: Otomatik temizlik, tarih bazlı klasörleme vb. seçenekleri açıp kapatın.
+Extra Features: Enable or disable options such as automatic cleanup, date-based foldering, etc.
 
-🏗️ Kullanılan Teknolojiler
-Python 3: Ana programlama dili.
+🏗️ Technologies Used
+Python 3: The main programming language.
 
-Watchdog: Dosya sistemi olaylarını canlı izlemek için.
+Watchdog: For live monitoring of file system events.
 
-CustomTkinter: Modern GUI arayüzü için.
+CustomTkinter: For a modern GUI interface.
 
-Pystray: Arka planda (System Tray) çalışmak için.
+Pystray: To run in the background (System Tray).
 
-Plyer: Masaüstü bildirimleri için.
+Plyer: For desktop notifications.
 
-🤝 Katkıda Bulunma
-Pull request'ler kabul edilir. Büyük değişiklikler için önce lütfen bir tartışma (issue) başlatın. Her türlü katkıya açığız!
+🤝 Contributing
+Pull requests are welcome. For major changes, please start a discussion (issue) first. We welcome all contributions!
 
-📄 Lisans
-Bu proje MIT lisansı ile lisanslanmıştır.
+📄 License
+
+This project is licensed under the MIT License.
+
+Translated with DeepL.com (free version)
